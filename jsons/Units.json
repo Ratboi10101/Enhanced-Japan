@@ -70,5 +70,20 @@
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
 	},
+	{
+		"name": "B29",
+		"unitType": "Helicopter",
+		"uniqueTo": "America",
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 390,
+		"requiredTech": "Nuclear Fission",
+		"requiredResource": "Oil",
+		"promotions": ["Evasion", "Siege I"],
+        "uniques": ["Can carry [1] [Atomic Bomber] units", "[-33]% Strength <vs [Water] units>"],
+		"upgradesTo": "Stealth Bomber",
+		"attackSound": "bombing"
+	},
 
 ]
