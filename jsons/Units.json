@@ -1,8 +1,35 @@
 [
 	{
+		"name": "Ashigaru Spearman",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Japan (Enhanced)",
+		"movement": 3,
+		"strength": 9,
+		"cost": 87,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+100]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Rifling",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ashigaru swordsman",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Japan (Enhanced)",
+		"movement": 3,
+		"strength": 10,
+		"cost": 90,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Samurai",
 		"unitType": "Sword",
-		"uniqueTo": "Japan",
+		"uniqueTo": "Japan (Enhanced)",
 		"movement": 2,
 		"strength": 16,
 		"cost": 120,
@@ -14,4 +41,34 @@
 		"uniques": ["Can instantly construct a [Fishing Boats] improvement"],
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Longbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"replaces": "Crossbowman",
+		"uniqueTo": "Japan (Enhanced)",
+		"strength": 10,
+		"rangedStrength": 13,
+		"cost": 100,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Extended Range"],
+		"uniques": ["[-25]% Strength <vs cities> <when attacking>"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Ashigaru Teppō-man",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Japan (Enhanced)",
+		"movement": 3,
+		"strength": 13,
+		"cost": 100,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+
 ]
